@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://valmikitechie.database.windows.net:1433;database=valmikitechiedb;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: arjun-526
+    password: Password@123
+spring.jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.SQLServer2012Dialect
+server:
+  port: 9191
+
+
+
+
